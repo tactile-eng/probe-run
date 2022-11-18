@@ -40,3 +40,6 @@ serial_test = { version = "2", default-features = false }
 
 [features]
 ftdi = ["probe-rs/ftdi"]
+
+[patch.crates-io]
+defmt-decoder = { git = "https://github.com/tactile-eng/defmt", branch = "braille-display-hint" }

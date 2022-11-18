@@ -265,8 +265,7 @@ dependencies = [
 [[package]]
 name = "defmt-decoder"
 version = "0.3.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "126b2b747b6d6783f98dcffd1329ea9e8f864f3a862f7ce0aba3323187806be9"
+source = "git+https://github.com/tactile-eng/defmt?branch=braille-display-hint#62d2b7344465de2f86935811c3d0eb4b4b4dabf4"
 dependencies = [
  "anyhow",
  "byteorder",
@@ -286,8 +285,7 @@ dependencies = [
 [[package]]
 name = "defmt-json-schema"
 version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96b04d228e57a61cf385d86bc8980bb41b47c6fc0eace90592668df97b2dad6a"
+source = "git+https://github.com/tactile-eng/defmt?branch=braille-display-hint#62d2b7344465de2f86935811c3d0eb4b4b4dabf4"
 dependencies = [
  "log",
  "serde",
@@ -296,8 +294,7 @@ dependencies = [
 [[package]]
 name = "defmt-parser"
 version = "0.3.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "269924c02afd7f94bc4cecbfa5c379f6ffcf9766b3408fe63d22c728654eccd0"
+source = "git+https://github.com/tactile-eng/defmt?branch=braille-display-hint#62d2b7344465de2f86935811c3d0eb4b4b4dabf4"
 dependencies = [
  "thiserror",
 ]
